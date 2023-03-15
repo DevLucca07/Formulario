@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family= Poppins :wght@400;500;600;700;900 & display=swap" rel="stylesheet">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <!-- imagem ddo  formulário -->
+    <div  class="container">
+        <div class="form-image">
+            <img src="imagens/undraw_shopping_re_hdd9.svg">
+        </div>
+    <!-- Formulário -->
+        <div class="form">
+            <form  action="#">
+                <!-- header do formulario -->
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+                <!--Inputs do Formulario-->
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro Nome</label>
+                        <input id="firstname" type="type" name="firstname" placeholder="Digite seu Primeiro Nome" required>
+                    </div>
+
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="type" name="lastname" placeholder="Digite seu Sobrenome" required>
+                    </div>
+
+
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu Email" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua Senha" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="confirmpassword">Confirme sua Senha</label>
+                        <input id="confirmpassword" type="password" name="confirmpassword" placeholder="Digite sua Senha" required>
+                    </div>
+                </div>
+
+                 <!-- genero inputs -->
+                    <div class="gender-inputs">
+                        <div class="gender-title">
+                            <h6>Genero</h6>
+                        </div>
+                
+                        <div class="gender-groups">
+                            <div class="gender-input">
+                                <input type="radio" id="female" name="gender">
+                                <label for="female">Feminino</label>
+                            </div>
+                
+                            <div class="gender-input">
+                                <input type="radio" id="male" name="gender">
+                                <label for="male">Masculino</label>
+                            </div>
+                
+                            <div class="gender-input">
+                                <input type="radio" id="others" name="gender">
+                                <label for="othres">Outros</label>
+                            </div>
+                
+                            <div class="gender-input">
+                                <input type="radio" id="nones" name="gender">
+                                <label for="none">Prefiro não dizer</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="continue-button">
+                        <button><a href="#">Continuar</a></button>
+                    </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
